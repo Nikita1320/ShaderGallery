@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MaterialWood
+  m_Name: MaterialWood 1
   m_Shader: {fileID: -6465566751694194690, guid: 7d6b96137de195147b44f6d509d2cbbb, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -95,15 +95,15 @@ Material:
     - _Metallic: 0
     - _OcclusionStrength: 1
     - _OffsetX: 0
-    - _OffsetZ: 0
+    - _OffsetZ: 0.23
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _ScaleNoise: 5
-    - _ScaleX: 1
+    - _ScaleX: 0.97
     - _ScaleY: 1
-    - _ScaleZ: 1
+    - _ScaleZ: 0.2
     - _SlantX: 0
     - _SlantZ: 0
     - _Smoothness: 0.5

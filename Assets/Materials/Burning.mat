@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MaterialWood
-  m_Shader: {fileID: -6465566751694194690, guid: 7d6b96137de195147b44f6d509d2cbbb, type: 3}
+  m_Name: Burning
+  m_Shader: {fileID: -6465566751694194690, guid: a7b43601e1856d349990203783a824b5, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -80,6 +80,7 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _Blend: 0
+    - _Brightness: 0.279
     - _BumpScale: 1
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
@@ -94,24 +95,17 @@ Material:
     - _GlossyReflections: 0
     - _Metallic: 0
     - _OcclusionStrength: 1
-    - _OffsetX: 0
-    - _OffsetZ: 0
     - _Parallax: 0.005
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _ScaleNoise: 5
-    - _ScaleX: 1
-    - _ScaleY: 1
-    - _ScaleZ: 1
-    - _SlantX: 0
-    - _SlantZ: 0
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
+    - _Speed: 1
+    - _Spotness: 0.285
     - _SrcBlend: 1
     - _Surface: 0
-    - _TOPORSIDE: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
@@ -120,7 +114,7 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &8369896178246190689
+--- !u!114 &1122453429910345236
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
